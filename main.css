@@ -108,8 +108,9 @@ img{
 .top-nav .item:hover{
     color: #333;
 }/*滑动到后颜色会深一点*/
-.hearder .logo{
-    font-size: 30px;
+.header .logo {
+
+    height: 60px;
 }
 .header {
     padding: 20px 0;
@@ -153,6 +154,7 @@ img{
 }
 .main-promote{
     background: #eee;
+    padding: 14px 20px;
 }
 .main-promote .cat{
     background: #6e6568;
@@ -185,10 +187,34 @@ img{
 .cat-promote .title:before{
     content: " ";
     display: inline-block;
-    vertical-align: middle;
+    vertical-align: middle;/*上下的居中方式*/
     width: 5px;
-    height: 40px;
+    height: 22px;
+    background: #dd182b;
+    margin-right: 10px;
 }
 .cat-promote .title{
     font-size: 22px;
+}
+.cat-promote .item{
+padding: 5px;
+/* 之间的空隙 */
+}
+.cat-promote .card{
+    height: 300px;
+    background: #ccc;
+    border-radius: 3px;
+    /* 方格变圆角 */
+    box-shadow: 0 2px 2px rgba(0, 0,0,0.1);
+}
+.footer{
+    text-align: center;
+    color: #999;
+    background: #eee;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+.footer a{
+    color: #999;
+
 }
